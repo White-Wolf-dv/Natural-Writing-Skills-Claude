@@ -33,7 +33,7 @@ Each pattern entry explains what it looks like, why it's a tell, and how to fix 
 
 ## How to use
 
-Drop the relevant skill folder into your Claude Skills directory. Claude picks it up automatically for long-form writing requests, or you can trigger it directly:
+Download the `.skill` file for the language you need and add it to your Claude Skills. Claude picks it up automatically for long-form writing requests, or you can trigger it directly:
 
 - **Persian:** «این متن رو طبیعی‌تر کن», «الگوهای هوش مصنوعی رو حذف کن»
 - **English:** "make this sound more natural," "remove AI patterns," "humanize this text"
@@ -49,13 +49,12 @@ They also don't introduce deliberate typos or grammar mistakes. Sounding natural
 ## Structure
 
 ```
-natural-writing-fa/
-  SKILL.md
-natural-writing-en/
-  SKILL.md
+natural-writing-en.skill
+natural-writing-fa.skill
+README.md
 ```
 
-Each `SKILL.md` is self-contained: pattern catalogue, register guidance, sentence-variety notes, self-check list, and a short workflow section.
+Each `.skill` file is self-contained: pattern catalogue, register guidance, sentence-variety notes, self-check list, and a short workflow section.
 
 ## License
 
