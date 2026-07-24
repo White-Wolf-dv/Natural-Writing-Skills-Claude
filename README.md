@@ -1,8 +1,8 @@
 # Natural Writing Skills
 
-Two [Claude Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that make AI-generated prose read like a person wrote it — one for Persian, one for English.
+Four [Claude Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that make AI-generated prose read like a person wrote it — for Persian, English, Arabic, and Spanish.
 
-Both are built around patterns documented in Wikipedia's ["Signs of AI Writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide — a field guide Wikipedia editors put together from real cases of undisclosed AI content. Instead of guessing at what "sounds robotic," these skills target the specific, catalogued tells: generic superlatives, mechanical summary phrases, rigid section structure, vague attribution, and a handful of others.
+All four are built around patterns documented in Wikipedia's ["Signs of AI Writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide — a field guide Wikipedia editors put together from real cases of undisclosed AI content. Instead of guessing at what "sounds robotic," these skills target the specific, catalogued tells: generic superlatives, mechanical summary phrases, rigid section structure, vague attribution, and a handful of others.
 
 ## Why this exists
 
@@ -16,8 +16,10 @@ These skills catch that fingerprint and rewrite around it: concrete facts instea
 |---|---|---|
 | `natural-writing-fa` | Persian (فارسی) | Blog posts, articles, ad copy, product descriptions, reports — any long-form Persian text |
 | `natural-writing-en` | English | Blog posts, articles, essays, reports, marketing copy — any long-form English text |
+| `natural-writing-ar` | Arabic (العربية) | Blog posts, articles, ad copy, product descriptions, reports — any long-form Arabic text |
+| `natural-writing-es` | Spanish (Español) | Blog posts, articles, essays, reports, marketing copy — any long-form Spanish text |
 
-Both skills share the same structure and catch the same nine patterns:
+All four skills share the same structure and catch the same nine patterns:
 
 1. Generic or exaggerated descriptors
 2. Repetitive summary/conclusion phrases
@@ -37,6 +39,8 @@ Download the `.skill` file for the language you need and add it to your Claude S
 
 - **Persian:** «این متن رو طبیعی‌تر کن», «الگوهای هوش مصنوعی رو حذف کن»
 - **English:** "make this sound more natural," "remove AI patterns," "humanize this text"
+- **Arabic:** «اجعل هذا يبدو طبيعيًا أكثر», «أزل أنماط الذكاء الاصطناعي»
+- **Spanish:** "que suene más natural," "quita los patrones de IA," "humaniza este texto"
 
 The skill applies to fresh drafts and existing text alike — write something new with it active, or hand it a finished draft to clean up.
 
@@ -51,6 +55,8 @@ They also don't introduce deliberate typos or grammar mistakes. Sounding natural
 ```
 natural-writing-en.skill
 natural-writing-fa.skill
+natural-writing-ar.skill
+natural-writing-es.skill
 README.md
 ```
 
