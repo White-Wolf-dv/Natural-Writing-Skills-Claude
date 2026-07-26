@@ -1,6 +1,6 @@
 # Natural Writing Skills
 
-Four [Claude Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that make AI-generated prose read like a person wrote it — for Persian, English, Arabic, Spanish, and Hebrew.
+Four [Claude Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that make AI-generated prose read like a person wrote it — for Persian, English, Arabic, Spanish, Hebrew, Italian, and French.
 
 All four are built around patterns documented in Wikipedia's ["Signs of AI Writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide — a field guide Wikipedia editors put together from real cases of undisclosed AI content. Instead of guessing at what "sounds robotic," these skills target the specific, catalogued tells: generic superlatives, mechanical summary phrases, rigid section structure, vague attribution, and a handful of others.
 
@@ -19,6 +19,8 @@ These skills catch that fingerprint and rewrite around it: concrete facts instea
 | `natural-writing-ar` | Arabic (العربية) | Blog posts, articles, ad copy, product descriptions, reports — any long-form Arabic text |
 | `natural-writing-es` | Spanish (Español) | Blog posts, articles, essays, reports, marketing copy — any long-form Spanish text |
 | `natural-writing-he` | Hebrew (עברית) | Blog posts, articles, essays, reports, marketing copy — any long-form Hebrew text |
+| `natural-writing-it` | Italian (Italiano) | Blog posts, articles, essays, reports, marketing copy — any long-form Italian text |
+| `natural-writing-fr` | French (Français) | Blog posts, articles, essays, reports, marketing copy — any long-form French text |
 
 All four skills share the same structure and catch the same nine patterns:
 
@@ -43,6 +45,8 @@ Download the `.skill` file for the language you need and add it to your Claude S
 - **Arabic:** «اجعل هذا يبدو طبيعيًا أكثر», «أزل أنماط الذكاء الاصطناعي»
 - **Spanish:** "que suene más natural," "quita los patrones de IA," "humaniza este texto"
 - **Hebrew:** «הפוך את הטקסט לטבעי יותר», «הסר דפוסי כתיבה של בינה מלאכותית»
+- **Italian:** "rendi il testo più naturale," "rimuovi i modelli dell'IA"
+- **French:** "rends ce texte plus naturel," "supprime les schémas de l'IA"
 
 The skill applies to fresh drafts and existing text alike — write something new with it active, or hand it a finished draft to clean up.
 
@@ -60,6 +64,8 @@ natural-writing-fa.skill
 natural-writing-ar.skill
 natural-writing-es.skill
 natural-writing-he.skill
+natural-writing-it.skill
+natural-writing-fr.skill
 README.md
 ```
 
