@@ -2,7 +2,7 @@
 
 Four [Claude Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that make AI-generated prose read like a person wrote it — for Persian, English, Arabic, Spanish, Hebrew, Italian, and French.
 
-All four are built around patterns documented in Wikipedia's ["Signs of AI Writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide — a field guide Wikipedia editors put together from real cases of undisclosed AI content. Instead of guessing at what "sounds robotic," these skills target the specific, catalogued tells: generic superlatives, mechanical summary phrases, rigid section structure, vague attribution, and a handful of others.
+All four are built around patterns documented in Wikipedia's ["Signs of AI Writing"] . guide — a field guide Wikipedia editors put together from real cases of undisclosed AI content. Instead of guessing at what "sounds robotic," these skills target the specific, catalogued tells: generic superlatives, mechanical summary phrases, rigid section structure, vague attribution, and a handful of others.
 
 ## Why this exists
 
